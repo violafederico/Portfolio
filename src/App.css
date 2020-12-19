@@ -1,0 +1,47 @@
+html body {
+  background-color: #dfe4ea;
+}
+
+
+html body .background{
+  background-image: url('./assets/image/backgroundimage.png');
+  width: 100%;
+  height: auto; 
+  background-size: 100% 100%;
+  min-height: 50vh;
+}
+
+html body .background nav {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  flex-flow: row nowrap;
+  padding: 1rem;
+  padding-top: 0;
+  padding-left: 0;
+  
+}
+
+html body .background a {
+  color: #57606f;
+  padding: 1rem;
+}
+
+html body .background a:hover{
+  color: #dfe4ea;
+  background-color: #57606f;
+}
+
+html body .logo {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: row;
+}
+
+html body .logo  img {
+  width: 25%;
+  height: auto;
+  /* background-size: 20% 20%; */
+
+}
