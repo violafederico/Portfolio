@@ -6,12 +6,6 @@ function NavBar() {
     return (
         <div className="navcomp">
             <nav>
-                {/* <a>Home</a>
-                <a>CV</a>
-                <a>About</a>
-                <a>Projects</a>
-                <a>Contact</a> */}
-
                 <Link to="/homepage"> Home </Link>
                 <Link to="/cv"> CV </Link>
                 <Link to="/about"> About </Link>

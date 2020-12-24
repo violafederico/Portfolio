@@ -8,20 +8,21 @@ import CV from '../Content/CV/CV';
 import About from '../Content/About/About';
 import Projects from '../Content/Projects/Projects';
 import Contact from '../Content/Contact/Contact';
-
-import '../../App.css';
+import './Homepage.css'
 
 function Homepage() {
     
     return (
         <section>
             <Header/>
-            <Routes>
-                <Route path="cv" element={<CV/>} />
-                <Route path="about" element={<About/>} />
-                <Route path="projects" element={<Projects/>} />
-                <Route path="contact" element={<Contact/>} />
-            </Routes>
+            <div className="content">
+                <Routes>
+                    <Route path="cv" element={<CV/>} />
+                    <Route path="about" element={<About/>} />
+                    <Route path="projects" element={<Projects/>} />
+                    <Route path="contact" element={<Contact/>} />
+                </Routes>
+            </div>
             <ScrollTop/>
             <Footer/> 
         </section>

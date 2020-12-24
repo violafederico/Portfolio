@@ -12,29 +12,30 @@ function Footer() {
     return (
         <div className="footer">
             <div>
+                <small>Contact me</small>
                 <section className="socialtag">
                     <div>
-                        <a href="https://www.linkedin.com/in/violafedericodev/" target="_blank" >
+                        <a href="https://www.linkedin.com/in/violafedericodev/" rel="noopener noreferrer" target="_blank" >
                             <img src={linkedin} alt="linkedin"/>
                         </a>
                     </div>
                     <div>
-                        <a href="https://github.com/violafederico" target="_blank" >
+                        <a href="https://github.com/violafederico" rel="noopener noreferrer" target="_blank" >
                             <img src={github} alt="github"/>
                         </a>
                     </div>
                     <div>
-                        <a href="https://twitter.com/f_ede_f" target="_blank" >
+                        <a href="https://twitter.com/f_ede_f" rel="noopener noreferrer" target="_blank" >
                             <img src={twitter} alt="twitter"/>
                         </a>
                     </div>
                     <div>
-                        <a href="https://www.facebook.com/fe.viola1993" target="_blank">
+                        <a href="https://www.facebook.com/fe.viola1993" rel="noopener noreferrer" target="_blank">
                             <img src={facebook} alt="facebook"/>
                         </a>
                     </div>
                 </section>
-                <small>Developed by <a href="#" >Federico Viola</a></small>
+                <small>Developed by <a href="/homepage" >Federico Viola</a></small>
             </div>
         </div>
     )

@@ -1,0 +1,8 @@
+html body .contact {
+    -webkit-box-shadow: -6px 8px 5px 0px rgba(223, 228, 234, 0.295);
+    -moz-box-shadow:    -6px 8px 5px 0px rgba(223, 228, 234, 0.295);
+    box-shadow:         -6px 8px 5px 0px rgba(223, 228, 234, 0.432);
+    width: 50%;
+    height: auto;
+    background-color: cornflowerblue;
+}
