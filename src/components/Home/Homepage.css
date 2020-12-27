@@ -4,7 +4,6 @@ html body .content{
     align-content: center;
     flex-flow: column wrap;
     background-color: #dfe4ea;
-    flex: 1 0 auto;
     padding: 2rem;
-    
+    min-height: 100%;
 }

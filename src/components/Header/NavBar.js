@@ -7,8 +7,8 @@ function NavBar() {
         <div className="navcomp">
             <nav>
                 <Link to="/homepage"> Home </Link>
-                <Link to="/cv"> CV </Link>
                 <Link to="/about"> About </Link>
+                <Link to="/cv"> CV </Link>
                 <Link to="/projects"> Projects </Link>
                 <Link to="/contact"> Contact </Link>
             </nav>

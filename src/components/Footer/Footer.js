@@ -6,6 +6,8 @@ import github from '../../assets/image/svg-icon/github.svg'
 import twitter from '../../assets/image/svg-icon/twitter.svg'
 import facebook from '../../assets/image/svg-icon/facebook.svg'
 
+import { FaReact } from 'react-icons/fa'
+
 function Footer() {
 
 
@@ -35,7 +37,7 @@ function Footer() {
                         </a>
                     </div>
                 </section>
-                <small>Developed by <a href="/homepage" >Federico Viola</a></small>
+                <h4>Made using React <FaReact/> <small>by <a href="/homepage" >Federico Viola</a></small></h4>
             </div>
         </div>
     )
