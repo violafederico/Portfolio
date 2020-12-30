@@ -1,0 +1,43 @@
+[
+    {
+        "nome": "React",
+        "livello": "50%",
+        "colore": "#61DBFB"
+    },
+    {
+        "nome": "HTML5",
+        "livello": "60%",
+        "colore": "#e34c26"
+    },
+    {
+        "nome": "CSS3",
+        "livello": "50%",
+        "colore": "#264de4"
+       },
+    {
+        "nome": "JS (JSX)",
+        "livello": "70%",
+        "colore": "#f0db4f"
+       },
+    {
+        "nome": "Boostrap",
+        "livello": "45%",
+        "colore": "#563d7c"
+        },
+    {
+        "nome": "NodeJs",
+        "livello": "30%",
+        "colore": "#68A063"
+     },
+    {
+        "nome": "jQuery",
+        "livello": "25%",
+        "colore": "#131B28"
+
+    },
+    {
+        "nome": "MySQL",
+        "livello": "35%",
+        "colore": "#F29111"
+    }
+]
