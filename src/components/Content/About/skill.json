@@ -16,7 +16,7 @@
        },
     {
         "nome": "JS (JSX)",
-        "livello": "70%",
+        "livello": "75%",
         "colore": "#f0db4f"
        },
     {
@@ -26,18 +26,23 @@
         },
     {
         "nome": "NodeJs",
-        "livello": "30%",
+        "livello": "35%",
         "colore": "#68A063"
      },
     {
         "nome": "jQuery",
-        "livello": "25%",
+        "livello": "35%",
         "colore": "#131B28"
 
     },
     {
         "nome": "MySQL",
-        "livello": "35%",
+        "livello": "45%",
         "colore": "#F29111"
+    },
+    {
+        "nome": "Java",
+        "livello": "40%",
+        "colore": "#007396"
     }
 ]

@@ -14,7 +14,7 @@ function Footer() {
     return (
         <div className="footer">
             <div>
-                <small>Contact me</small>
+                <small>Follow me</small>
                 <section className="socialtag">
                     <div>
                         <a href="https://www.linkedin.com/in/violafedericodev/" rel="noopener noreferrer" target="_blank" >
